@@ -1,0 +1,19 @@
+{
+  "name": "jira-sort-assignee-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r extension.zip ./extension"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsoneldoro/jira-sort-assignee-users.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsoneldoro/jira-sort-assignee-users/issues"
+  },
+  "homepage": "https://github.com/nelsoneldoro/jira-sort-assignee-users#readme"
+}
