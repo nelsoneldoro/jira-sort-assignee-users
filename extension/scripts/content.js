@@ -26,11 +26,12 @@ document.addEventListener("click", function (e) {
       sortedAssignees.forEach((e) => assigneesDropdown.appendChild(e));
 
       const input = document.createElement("input");
-      input.setAttribute("placeholder", "Search assignees");
+      input.setAttribute("placeholder", "Filter users");
       input.setAttribute("class", "css-1eh73bc em6wsuj7");
       input.addEventListener("input", onSearch(sortedAssignees));
 
       assigneesDropdown.prepend(input);
+      setTimeout(() => input.focus(), 100);
     }
   }
 });
