@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "zip": "zip -r extension.zip ./extension"
+    "test": "echo \"No test specified yet!\" && exit 0",
+    "sync-manifest-version": "node ./sync-manifest-version.js $npm_package_version",
+    "zip": "zip -r extension.zip ./extension",
+    "preversion": "yarn test",
+    "postversion": "yarn sync-manifest-version && yarn zip && echo \"Successfully released version $npm_package_version!\""
   },
   "repository": {
     "type": "git",
