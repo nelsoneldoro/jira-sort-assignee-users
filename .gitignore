@@ -1,4 +1,4 @@
 .DS_Store
-extension.zip
+extension-v*.zip
 /node_modules
 /yarn-error.log
