@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "JIRA - Sort and filter assigned users",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sort and filter users in the JIRA dropdown.",
   "icons": {
     "16": "images/icon-16.png",
