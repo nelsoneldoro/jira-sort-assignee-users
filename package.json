@@ -1,6 +1,6 @@
 {
   "name": "jira-sort-assignee-users",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
