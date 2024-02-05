@@ -1,6 +1,6 @@
 const showMoreAssigneesBtnId = "assignee-show-more";
-const assigneesDropdownSelector = ".guavb6-1.cJoruE";
-const assigneeSelector = ".guavb6-2.jPYWbI";
+const assigneesDropdownSelector = "._p12f1mjv._1yt4swc3";
+const assigneeSelector = ".guavb6-1.ejbirl";
 
 const sortByTextContent = (a, b) => a.textContent.localeCompare(b.textContent);
 
@@ -27,7 +27,8 @@ document.addEventListener("click", function (e) {
 
       const input = document.createElement("input");
       input.setAttribute("placeholder", "Filter users");
-      input.setAttribute("class", "css-1eh73bc em6wsuj7");
+      input.setAttribute("class", "css-17m85ff");
+      input.setAttribute("style", "padding-left: 6px;");
       input.addEventListener("input", onSearch(sortedAssignees));
 
       assigneesDropdown.prepend(input);
